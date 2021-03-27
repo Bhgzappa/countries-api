@@ -6,7 +6,6 @@ import { numberWithCommas } from "../utils/numbersComma";
 import React, { useState, useMemo} from "react"
 import Select from "react-select"
 import countryList from "react-select-country-list"
-import {Link } from "react-router-dom"
 
 function Stats() {
   const url = "https://restcountries.eu/rest/v2/all";
